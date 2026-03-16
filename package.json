@@ -1,0 +1,23 @@
+{
+  "name": "tampilan",
+  "version": "1.0.0",
+  "description": "Uji Coba",
+  "keywords": [
+    "Eksperimen"
+  ],
+  "homepage": "https://github.com/Ngurahoka737/Eksperimen#readme",
+  "bugs": {
+    "url": "https://github.com/Ngurahoka737/Eksperimen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ngurahoka737/Eksperimen.git"
+  },
+  "license": "ISC",
+  "author": "Ngurah Oka",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
