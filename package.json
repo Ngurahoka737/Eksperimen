@@ -5,6 +5,7 @@
   "keywords": [
     "Eksperimen"
   ],
+  
   "homepage": "https://github.com/Ngurahoka737/Eksperimen#readme",
   "bugs": {
     "url": "https://github.com/Ngurahoka737/Eksperimen/issues"
@@ -16,8 +17,30 @@
   "license": "ISC",
   "author": "Ngurah Oka",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "main.js",
+  "dependencies": {
+    "file-saver": "^2.0.2",
+    "gl-matrix": "^3.1.0",
+    "hammerjs": "^2.0.8",
+    "http-server": "^14.1.1",
+    "raw-loader": "^4.0.2",
+    "yagui": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^7.0.0",
+    "electron": "^11.2.3",
+    "electron-packager": "^15.2.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "dev": "node_modules/.bin/webpack -w",
+  "server": "http-server app -p 8080",
+  "release": "node_modules/.bin/webpack --env release",
+  "webad": "node_modules/.bin/webpack --env webad",
+  "website": "node_modules/.bin/webpack --env website"
+}
 }
